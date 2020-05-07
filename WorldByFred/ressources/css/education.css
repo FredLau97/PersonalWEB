@@ -1,0 +1,100 @@
+html, body {
+    background-image: url("../css/images/colored_background.jpeg");
+}
+
+header {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a, .navdropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover, .navdropdown:hover .navdropbtn {
+  background-color: rgb(37, 37, 37);
+}
+
+li.navdropdown {
+  display: inline-block;
+}
+
+.navdropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #333;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.navdropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navdropdown-content a:hover {background-color: red;}
+
+.navdropdown:hover .navdropdown-content {
+  display: block;
+}
+
+main {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  margin-top: 51px;
+  height: 100%;
+}
+
+main h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+#mainContent {
+  width: 80.2%;
+  height: 100%;
+  float: left;;
+  position: relative;
+  left: -8px;
+}
+
+#mainContent h1 {
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  position: relative;
+  margin-left: 20px;
+}
+
+#edu {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(30, 30, 30);
+  position: fixed;
+  right: 0;
+  border-left: 10px solid #333;
+}
